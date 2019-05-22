@@ -44,11 +44,11 @@ testedQ OK 22/5/2019
 #include <RemoteXY.h>
 
 // RemoteXY connection settings 
-#define REMOTEXY_WIFI_SSID "GKAPSID_HOME"
-#define REMOTEXY_WIFI_PASSWORD "G5H78km2NthE0813"
+#define REMOTEXY_WIFI_SSID "yourSSID"
+#define REMOTEXY_WIFI_PASSWORD "YourPass"
 #define REMOTEXY_CLOUD_SERVER "cloud.remotexy.com"
 #define REMOTEXY_CLOUD_PORT 6376
-#define REMOTEXY_CLOUD_TOKEN "214243a22514ed12986e4fc03046b01b"
+#define REMOTEXY_CLOUD_TOKEN "YourTOKEN"
 
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
@@ -92,8 +92,8 @@ bool flag = false;
 bool flag2 = false;
 
 //pushetta related
-char APIKEY[] = "b8ab0d49b8b109b7513da31d3a8248c4947dff1e"; // Put here your API key. It's in the dashboard
-char CHANNEL[] = "ESPsensme";                               // and here your channel name
+char APIKEY[] = "YourAPIKey"; // Put here your API key. It's in the dashboard
+char CHANNEL[] = "Your Channel";                               // and here your channel name
 
 char serverName[] = "api.pushetta.com";
 boolean lastConnected = false;
